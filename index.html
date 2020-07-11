@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Links for the counter to work-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>     
+    <script type="text/javascript" src="/js/counter.js"></script>
+
     <title>World Wide Campus</title>
+
 </head>
 <body>
 
     <div class="container">
 
             
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">World Wide Campus</a>
+        <nav class="navbar fixed-top navbar-expand-lg text-center navbar-dark bg-dark">
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,30 +32,33 @@
               <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PROYECTS</a>
+              <a class="nav-link" href="/projects.html">PROJECTS</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="#">TOOLS</a>
+              <a class="nav-link" href="/tools.html">TOOLS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">RESOURCES</a>
+                <a class="nav-link" href="/resources.html">RESOURCES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">STUDENTS</a>
+                <a class="nav-link" href="/students.html">STUDENTS</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">LOCATIONS</a>
+                <a class="nav-link" href="/locations.html">LOCATIONS</a>
               </li>
           </ul>
           
             </div>
         </nav>
                 
-        <div class="header jumbotron text-center">
-            <h1 class="Display-1">World Wide Campus</h1>
-        </div>
+        <header class="header">
+            <div class="jumbotron text-center text-white jumbotron-image" style="background-image: url(/img/header-campus.jpg);">
+            
+                <h1 class="Display-1">World Wide Campus</h1>
+            </div>
+        </header>
 
         <section>
             <div class="card mb-3 card text-white bg-dark " style="">
@@ -70,8 +81,8 @@
               
               <div class="col-md-8">
                 <div class="card-body">
-                  <h3 class="card-title">What</h3>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempora praesentium facilis nisi architecto consequatur tempore accusantium nulla error sit ad necessitatibus, ab laborum officia ullam ea dolorum assumenda non aliquid. Magnam veniam minima explicabo placeat iste quos, excepturi aperiam est quibusdam, voluptatum nesciunt nisi veritatis ut deleniti dolore libero.</p>
+                  <h3 class="card-title text-right">What</h3>
+                  <p class="card-text text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempora praesentium facilis nisi architecto consequatur tempore accusantium nulla error sit ad necessitatibus, ab laborum officia ullam ea dolorum assumenda non aliquid. Magnam veniam minima explicabo placeat iste quos, excepturi aperiam est quibusdam, voluptatum nesciunt nisi veritatis ut deleniti dolore libero.</p>
                   
                 </div>
               </div>
@@ -97,6 +108,45 @@
             </div>
           </div>
         </section>        
+
+        <section class="counters">
+
+
+            <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+            <div class="container">
+                                 
+                         
+                    
+                </div>
+                    <div class="row text-center">
+                        <div class="col">
+                        <div class="counter">
+                  <i class="fa fa-code fa-2x"></i>
+                  <h2 class="timer count-title count-number" data-to="100" data-speed="1500"></h2>
+                   <p class="count-text ">Our Customer</p>
+                </div>
+                        </div>
+                          <div class="col">
+                           <div class="counter">
+                  <i class="fa fa-coffee fa-2x"></i>
+                  <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
+                  <p class="count-text ">Happy Clients</p>
+                </div>
+                          </div>
+                          <div class="col">
+                              <div class="counter">
+                  <i class="fa fa-lightbulb-o fa-2x"></i>
+                  <h2 class="timer count-title count-number" data-to="11900" data-speed="1500"></h2>
+                  <p class="count-text ">Project Complete</p>
+                </div></div>
+                          <div class="col">
+                          <div class="counter">
+                  <i class="fa fa-bug fa-2x"></i>
+                  <h2 class="timer count-title count-number" data-to="157" data-speed="1500"></h2>
+                  <p class="count-text ">Coffee With Clients</p>
+                </div>
+
+        </section>
 
 
     </div>
