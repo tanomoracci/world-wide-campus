@@ -63,3 +63,7 @@ RGB code:	rgb(255, 255, 255)
     display: table;
     color: #4ad1e5;
 }
+
+.JuneRemoteCourseProjects {
+    list-style-type: none;
+}
