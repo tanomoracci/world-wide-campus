@@ -1,3 +1,4 @@
+
 .header {
 
     padding-top: 50px;
@@ -9,6 +10,12 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+.card-img {
+
+    opacity: .3;
+    filter: grayscale(20%);
+}
 
 
 /* COUNTERS */
