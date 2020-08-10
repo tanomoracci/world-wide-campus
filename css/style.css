@@ -2,19 +2,48 @@
 .header {
 
     padding-top: 50px;
+    letter-spacing: .5em;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.header-1 , .display-4{
+
+    padding-top: 8vh;    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 2px 2px 1px rgb(0,0,0,.6);
     
+    font-weight: 700;
+}
+
+.footer-text {
+    letter-spacing: .2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.nav-link {
+    letter-spacing: .3rem;
 }
 
 .jumbotron-image {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 35vh;
+    
   }
 
 .card-img {
 
     opacity: .3;
     filter: grayscale(20%);
+}
+
+.card-text {
+    font-family: 'Source Code Pro', monospace;
+    margin: 0 1.5rem;
 }
 
 
@@ -51,4 +80,10 @@
 
 .JuneRemoteCourseProjects {
     list-style-type: none;
+}
+
+.footer {
+
+    width: 100%;
+   
 }
