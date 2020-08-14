@@ -49,6 +49,10 @@
     margin: 0 1.5rem;
 }
 
+.card-ajusts {
+
+    height: 55vh;
+}
 
 /* COUNTERS */
 
@@ -104,7 +108,12 @@
 .footer a {
     font-size: .6em;
     text-align: center;
-} 
+}
+
+.card-ajusts {
+
+    height: 100%;
+}
 }
 
 /* Medium devices */ 
