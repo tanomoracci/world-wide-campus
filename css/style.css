@@ -114,12 +114,6 @@
     height: 100%;
 }
 
-.JuneRemoteCourseProjects{
-
-    width: 80vw;
-
-}
-
 }
 
 /* Medium devices */ 
@@ -130,6 +124,8 @@
         font-size: 1.5rem;
         padding-top: 3vh;
      }
+
+     
 }
 
 
