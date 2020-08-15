@@ -37,7 +37,6 @@
 
 .card-img {
 
-    opacity: .3;
     filter: grayscale(20%);
     min-width: 100%;
     min-height: 100%;
